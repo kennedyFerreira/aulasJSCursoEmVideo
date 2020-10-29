@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body {
+        background-color: rgb(188, 169, 202);
+        color: rgb(247, 247, 181);
+        font: normal 30 Times;}
+    h1 { color: red;}
+    p  {color: blue;}
+    </style>
+</head>
+
+<body>
+    <h1>Aprendendo programação</h1>
+    <p>Fazendo teste com o que aprendi até o momento.</p>
+   
+    <script>
+    //variaveis
+     window.alert ('Se você nunca estudou programação esta no lugar certo')
+     window.confirm ('Voce ja tem alguma base em programação?')
+        var nome = window.prompt ('Qual o seu nome?')
+        var idade = Number(window.prompt ('Qual sua idade?'))
+        var país = window.prompt ('Qual sua nacionalidade?')
+        var calIdade = idade + 30
+        var nomenum = nome.length
+        var idapornome = idade / nomenum
+        var anos = idade >= 18 ? 'Você é maior de idade.' : 'Você é menor de idade.'
+     
+
+    // Impressoes tela
+    document.write(`Seja bem vindo ${nome}<br/>`)
+    document.writeln(`Idade: ${idade}<br/>`)
+    document.write('Nacionalidade: '+país+'<br/>')
+    document.write(`Seu nome tem ${nomenum} letras.<br/>`)
+    document.write('Sua idade somada com 30 e igual a: '+calIdade+'<br/>')
+    document.write(`Sua idade dividido pela quantidade de letras que seu nome tem e igual a: ${idapornome.toFixed(2)}<br/>`)
+    document.write(anos)
+    
+
+    
+
+       
+    
+    </script>
+    
+</body>
+</html>
